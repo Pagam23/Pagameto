@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página de Pagamento Feliz</title>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      background-color: #f1f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .payment-form {
+      text-align: center;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .payment-form img {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    .input-field {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .payment-button {
+      display: block;
+      width: 100%;
+      padding: 20px;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: black;
+      background-color: #ff69b4;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .payment-button:hover {
+      background-color: blue;
+    }
+
+    h1 {
+      color:black;
+    }
+
+    p {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="payment-form">
+    <h1> Pagamento </h1>
+    <img src="img/2.png" alt="Bandeiras do Cartão">
+    <form>
+      <input type="text" class="input-field" placeholder="Nome Completo" required>
+      <input type="date" class="input-field" placeholder="Data de Nascimento" required>
+      <input type="text" class="input-field" placeholder="Número do Cartão" required>
+      <input type="text" class="input-field" placeholder="Nome do Titular do Cartão" required>
+      <input type="text" class="input-field" placeholder="CVV" required>
+      <input type="month" class="input-field" placeholder="Validade do Cartão" required>
+      <button type="submit" class="payment-button">Realizar Pagamento Feliz</button>
+    </form>
+    <p>Pagamentos felizes trazem sorrisos!</p>
+  </div>
+</body>
+</html>
